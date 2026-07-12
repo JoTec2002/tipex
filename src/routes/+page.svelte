@@ -8,12 +8,10 @@
 	import codes from '$item/codes/basicCodes.json' with { type: 'json' };
 	import ThemeToggle from '$item/ThemeToggle.svelte';
 	import { page } from '$app/state';
+	import { resolve } from '$app/paths';
 	import type { Editor } from '@tiptap/core';
 
 	let editor: Editor | undefined = $state();
-
-	const htmlContent = $derived(editor?.getHTML());
-	// $inspect('htmlContent', htmlContent);
 </script>
 
 <svelte:head>
@@ -199,8 +197,9 @@
 	<li><strong>Content Validation:</strong> Implement custom validation and sanitization logic</li>
 </ul>
 <p>
-	Visit the <a href="/customization" class="text-blue-600 hover:underline">customization guide</a> for
-	detailed examples and advanced techniques.
+	Visit the <a href={resolve('/customization')} class="text-blue-600 hover:underline"
+		>customization guide</a
+	> for detailed examples and advanced techniques.
 </p>
 
 <h2 class="mt-8">Commands & API</h2>
@@ -218,8 +217,9 @@
 	<li>Custom command chaining</li>
 </ul>
 <p>
-	Explore the <a href="/commands" class="text-blue-600 hover:underline">commands documentation</a> for
-	comprehensive examples and use cases.
+	Explore the <a href={resolve('/commands')} class="text-blue-600 hover:underline"
+		>commands documentation</a
+	> for comprehensive examples and use cases.
 </p>
 
 <h2 class="mt-8">Performance & Accessibility</h2>
