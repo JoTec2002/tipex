@@ -53,6 +53,15 @@
 		"!dist/**/*.spec.*"
 	],
 	"peerDependencies": {
+		"@tiptap/core": ">=3.0.0 <4.0.0",
+		"@tiptap/extension-code-block": ">=3.0.0 <4.0.0",
+		"@tiptap/extension-code-block-lowlight": ">=3.0.0 <4.0.0",
+		"@tiptap/extension-floating-menu": ">=3.0.0 <4.0.0",
+		"@tiptap/extension-image": ">=3.0.0 <4.0.0",
+		"@tiptap/extension-list": ">=3.0.0 <4.0.0",
+		"@tiptap/extensions": ">=3.0.0 <4.0.0",
+		"@tiptap/pm": ">=3.0.0 <4.0.0",
+		"@tiptap/starter-kit": ">=3.0.0 <4.0.0",
 		"svelte": "^5.0.0"
 	},
 	"devDependencies": {
@@ -67,6 +76,15 @@
 		"@tailwindcss/node": "^4.0.0",
 		"@tailwindcss/typography": "^0.5.13",
 		"@tailwindcss/vite": "^4.0.0",
+		"@tiptap/core": "3.31.1",
+		"@tiptap/extension-code-block": "3.31.1",
+		"@tiptap/extension-code-block-lowlight": "3.31.1",
+		"@tiptap/extension-floating-menu": "3.31.1",
+		"@tiptap/extension-image": "3.31.1",
+		"@tiptap/extension-list": "3.31.1",
+		"@tiptap/extensions": "3.31.1",
+		"@tiptap/pm": "3.31.1",
+		"@tiptap/starter-kit": "3.31.1",
 		"@types/node": "^26.1.1",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
@@ -91,15 +109,6 @@
 	"type": "module",
 	"dependencies": {
 		"@floating-ui/dom": "^1.6.12",
-		"@tiptap/core": "^3.0.0",
-		"@tiptap/extension-code-block": "^3.0.0",
-		"@tiptap/extension-code-block-lowlight": "^3.0.0",
-		"@tiptap/extension-floating-menu": "^3.0.0",
-		"@tiptap/extension-image": "^3.0.0",
-		"@tiptap/extension-list": "^3.0.0",
-		"@tiptap/extensions": "^3.0.0",
-		"@tiptap/pm": "^3.0.0",
-		"@tiptap/starter-kit": "^3.0.0",
 		"iconify-icon": "^1.0.8",
 		"lowlight": "^2.9.0"
 	},
